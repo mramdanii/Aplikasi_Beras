@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainMenu">
+
+    <Button
+
+        android:id="@+id/listberas"
+        android:textColor="#ffffff"
+        android:layout_width="160dp"
+        android:background="@drawable/button"
+        android:layout_height="wrap_content"
+        android:text="List Beras"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/grafikpenjualan"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Grafik Penjualan"
+        android:background="@drawable/button"
+
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="278dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/listpenjualan"
+        android:background="@drawable/button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="List Penjualan"
+
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="278dp" />
+</LinearLayout>
